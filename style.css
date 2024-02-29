@@ -1,0 +1,159 @@
+:root{
+  --Dark-Raspberry: hsl(332, 51%, 32%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --White: hsl(0, 0%, 100%);
+  --Rose-White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light-Grey: hsl(30, 18%, 87%);
+  --Wenge-Brown: hsl(30, 10%, 34%);
+  --Dark-Charcoal: hsl(24, 5%, 18%);
+}
+body {
+    font-size: 15pt;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+  height: 150px;
+  width: 100%;
+}
+.Title{
+  margin: 24px 20px 24px 20px;
+  text-align: center;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: rem;
+  
+}
+.P-Des{
+  margin: 16px 20px 16px 20px;
+  font-size: 0.95rem;
+  color: var(--Dark-Charcoal);
+  font-family: "Outfit", sans-serif;
+}
+.Name-Pre{
+  padding: 1rem 0 0 1.5rem;
+  color: var(--Dark-Raspberry);
+  font-weight: bold;
+}
+.P-Time{
+  background-color: var(--Rose-White);
+  margin: 0 20px 0 20px;
+  font-size: 0.95rem;
+  padding-bottom: 10px;
+  border-radius: 10px
+}
+
+.Li-Li{
+  color: var(--Nutmeg);
+}
+.P-Li{
+  color: var(--Dark-Charcoal);
+  font-size: 0.95rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.Name-Ingr{
+ margin: 20px 0 0 30px;
+ font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: var(--Nutmeg);
+}
+.Li-Ingr{
+  color: var(--Nutmeg);
+}
+.P-Ingr{
+  font-size: 0.95rem;
+  color: var(--Dark-Charcoal);
+  font-family: "Outfit", sans-serif;
+}
+.Name-Inst{
+  margin: 20px 0 0 30px;
+ font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: var(--Nutmeg);
+}
+.Li-Ins{
+  color: var(--Nutmeg);
+  font-family: "Protest Riot", sans-serif;
+}
+.P-Ins{
+  color: var(--Dark-Charcoal);
+  font-size: 0.95rem;
+  font-family: "Outfit", sans-serif;
+  margin-right: 20px;
+}
+.Name-Nu{
+  margin: 20px 0 0 30px;
+ font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: var(--Nutmeg);
+}
+.P-Nu{
+  margin-left: 30px;
+  font-size: 0.95rem;
+  color: var(--Dark-Charcoal);
+  font-family: "Outfit", sans-serif;
+}
+.Section-Nu{
+  margin: 20px 30px 35px 25px;
+}
+.Div-Nu{
+  margin: 10px 30px 0 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Por-Na{
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--Dark-Charcoal);
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+}
+.Por-Nu{
+  margin: 0 80px 0 0;
+  color: var(--Dark-Raspberry);
+  font-family: "Protest Riot", sans-serif;
+  
+}
+hr{
+  border: none;
+  border-top: 1px solid #E4E4E4;
+}
+
+
+@media (min-width: 700px){
+  body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Eggshell);
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+  #Card{
+    width: 60%;
+    border-radius: 20px;
+    background-color: var(--White);
+  }
+ .Img{
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+ }
+ img{
+   border-radius: 12px;
+   height: 250px;
+ }
+ .P-Ins{
+   margin-right: 20px;
+ }
+}
